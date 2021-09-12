@@ -1,0 +1,102 @@
+.row{
+    margin: 0px;
+}
+.col-sm{
+    padding: 0px;
+}
+/* .Event-block .inner-box .p-2{
+
+} */
+.bio{
+    margin-top: 30px;
+}
+.Event-block{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 71px;
+}
+.Event-block .topic{
+ font-size: 30px;
+ margin-top: 20px;
+}
+.Event-block .inner-box {
+    background-color: rgb(34, 58, 68);
+    border-radius: 20px 0px 0px 20px;
+}
+.Event-block .inner-box .p-2 .row #act-topic{
+    font-size: 17px;
+    font-weight: bolder;
+    background-color: rgb(34, 58, 68);
+    color: snow;
+    border: none;
+}
+.Event-block .inner-box .p-2 .row .btn{
+    padding: 0px;
+    height: 30px;
+    width: 30px;
+    border-width: 0px;
+    border-radius: 20px;
+    background-color: mintcream;
+}
+.Event-block .inner-box .p-2 .row .btn pre{
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+    border-width: 0px;
+    border-radius: 20px;
+}
+.Event-block .inner-box .p-2 .row .btn pre img{
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+.Event-block .inner-box .p-2 .row #visit{
+    position: absolute;
+    right: 20px;
+    /* border-radius: 10px; */
+    margin-top: 10px;
+    background-color: rgb(57, 93, 109);
+    color: white;
+    border: none;
+}
+.Event-block .inner-box .p-2 .row #visit:hover{
+    background-color: rgb(79, 130, 151);
+}
+.Event-block .inner-box .p-2 .row #deletebtn{
+    margin-left: 10px;
+    padding: 0px;
+    border-width: 0px;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+}
+.Event-block .inner-box .p-2 .row #deletebtn:hover{
+    background-color: rgb(203, 235, 25);
+}
+.Event-block .inner-box .p-2 .row #deletebtn img{
+    height: 25px;
+    width: 20px;
+    border-radius: 20px;
+}
+.Event-block .inner-box .p-2 #collapseEvent #mini-topic{
+    font-weight: bolder;
+    color: rgb(213, 219, 235);
+}
+.Event-block .inner-box .p-2 #collapseEvent .p-2, pre{
+    color: wheat;
+    font-weight: bolder;
+}
+.Event-block #Addbutton{
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(57, 93, 109);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(228, 215, 228);
+}
+.Event-block #Addbutton:hover{
+ background-color: rgb(39, 64, 75);
+}

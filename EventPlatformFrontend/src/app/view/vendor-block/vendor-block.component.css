@@ -1,0 +1,126 @@
+.vendor-de .cover{
+    position: relative;
+}
+.vendor-de .cover img{
+    padding-top: 35px;
+    padding-left: 45px;
+    margin-left: 20px;
+    width:90%;
+    height: 450px;
+}
+.vendor-de .cover .text-block {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #810586;
+    color: #d0bed0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+  .vendor-de .Intro #heading{
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(89, 6, 122);
+  }
+  .vendor-de .Intro #bio{
+      font-size: 16px;
+      color: rgb(46, 43, 39);
+      font-weight: bold;
+      margin-left: 4%;
+      margin-right: 5%;
+    margin-top: 20px;
+    font-family: Montserrat;
+  }
+  .vendor-de .links #first-lnk{
+      margin-left: 36%;
+  }
+  .vendor-de .links{
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+  .vendor-de .links a{
+      margin-left: 40px;
+
+  }
+  .vendor-de .links a img{
+    height: 40px;
+    width: 40px;
+  }
+  .vendor-de .packages{
+      margin-top: 20px;
+      margin-left: 9%;
+      margin-bottom: 30px;
+      width: 80%;
+  }
+  .row{
+    margin: 0px;
+}
+/* .Event-block .inner-box .p-2{
+
+} */
+.vendor-de .inner-box .p-2 .row .btn{
+    padding: 0px;
+    height: 40px;
+    width: 40px;
+    border-width: 0px;
+    border-radius: 20px;
+    background-color: mintcream;
+}
+.vendor-de .inner-box .p-2 .row .btn pre{
+    height: 40px;
+    width: 40px;
+    padding: 0px;
+    border-width: 0px;
+    border-radius: 20px;
+}
+.vendor-de .inner-box .p-2 .row .btn pre img{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+.vendor-de .inner-box .p-2 .row #deletebtn{
+    margin-left: 10px;
+    padding: 0px;
+    border-width: 0px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+.vendor-de .inner-box .p-2 .row #deletebtn:hover{
+    background-color: rgb(203, 235, 25);
+}
+.vendor-de .inner-box .p-2 .row #deletebtn img{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+}
+.vendor-de #Addbutton{
+    position: absolute;
+    margin-top: 20px;
+    right: 20px;
+    width: 5%;
+    background-color: orchid;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: bolder;
+    color: purple;
+}
+.vendor-de #Addbutton:hover{
+ background-color: rgb(226, 29, 62);
+}
+.vendor-de .Location #heading-2{
+    margin-top: 40px;
+ font-size: 20px;
+ font-weight: bolder;
+ color: slateblue;
+}
+.vendor-de .Location .d-flex{
+    margin-top: 40px;
+}
+.vendor-de .Location #tel, #address{
+font-weight: bolder;
+}

@@ -1,0 +1,18 @@
+.row{
+    margin: 0px;
+  }
+  .col-sm{
+    padding: 0px;
+  }
+slide {
+    margin-right: 0;
+    padding: 0 2px;
+    border-radius: 60px;
+}
+slide  img{
+  border-radius: 60px;
+}
+#slide{
+  height: 220px;
+  width: 40px;
+}

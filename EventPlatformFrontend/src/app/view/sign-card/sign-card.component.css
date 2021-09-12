@@ -1,0 +1,117 @@
+.row{
+    margin: 0px;
+}
+.col-sm{
+    padding: 0px;
+}
+.Login-frm #card h2{
+    color: rgb(42, 4, 69);
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.Login-frm #card h3{
+  font-family: "Montserrat Alternates SemiBold";
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(22, 21, 21);
+}
+.Login-frm #card .btn-grp-2{
+    margin-left: 30%;
+    margin-top: 20px;
+}
+.Login-frm #card .btn-grp-2 button{
+    border-radius: 0px;
+    width: 30%;
+    transition-duration: 0.4s;
+    border: none;
+}
+.Login-frm #card .btn-grp-2 button:hover{
+  background-color: #4CAF50;
+  color: white;
+}
+.Login-frm #card .btn-grp-2 #button-1{
+    background-color: rgb(214, 113, 18);
+}
+.Login-frm #card .btn-grp-2 #button-2{
+    background-color: rgb(236, 22, 154);
+}
+.Login-frm #card{
+  position: absolute;
+  top: 30px;
+  right: 8%;
+  background-color: rgba(148, 158, 167, 0.66);
+  width: 40%;
+  height: 550px;
+}
+.Login-frm #card form{
+    margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.Login-frm #card form mat-form-field{
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-top: 10px;
+  width: 80%;
+  height: 20px;
+  margin-bottom: 40px;
+}
+
+.Login-frm #card form mat-form-field input{
+  height: 20px;
+}
+
+.Login-frm #card form mat-form-field mat-label{
+  font-weight: bold;
+  color: #190b37;
+}
+
+.Login-frm #card form mat-form-field mat-option{
+  color: #9389B5;
+  background-color: #9389B5;
+}
+  /*.Login-frm #card form .form-group{*/
+/*    margin-bottom: 5px;*/
+/*}*/
+/*.Login-frm #card form label{*/
+/*    color: black;*/
+/*    font-weight: bold;*/
+/*    margin-bottom: 3px;*/
+/*}*/
+/*.Login-frm #card form input{*/
+/*    border-top: blanchedalmond;*/
+/*    border-left: blanchedalmond;*/
+/*    border-right:blanchedalmond ;*/
+/*    background-color: rgba(148, 158, 167, 0.664) ;*/
+/*}*/
+.Login-frm #card form button{
+    /* right: 20px; */
+    position: absolute;
+    background-color: indigo;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-left: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.Login-frm #card form button:hover{
+    background-color: rebeccapurple;
+    color: #c4bacf;
+}
+.Login-frm #card form .form-check{
+    margin-top:15px;
+    padding-left: 40px;
+}
+.Login-frm #card form .form-check #terms{
+    color: rgb(61, 13, 60);
+}
+.Login-frm #card form p{
+  margin-top: 30px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color: rgb(19, 20, 20);
+}
+.Login-frm #card form p a{
+    color: rgb(42, 42, 78);
+}

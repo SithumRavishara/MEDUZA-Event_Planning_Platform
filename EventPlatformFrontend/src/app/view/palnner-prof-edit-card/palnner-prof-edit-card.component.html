@@ -1,0 +1,113 @@
+<div class="Login-frm">
+    <div class="container" id="card">
+        <!-- <div class="btn-grp-2">
+            <button type="button" class="btn" id="button-1" routerLink="/login">LogIn</button>
+            <button type="button" class="btn" id="button-2" routerLink="/signin">SignUp</button>
+        </div> -->
+        <h2 class="text-center">Profile Setup</h2>
+        <div class="btn-group" dropdown placement="bottom right">
+<!--            <button id="button-alignment" dropdownToggle type="button"-->
+<!--                    class="btn dropdown-toggle" aria-controls="dropdown-alignment" routerLink="/VendorAccountEdit">-->
+<!--                    Account Settings-->
+<!--                    <span class="caret"></span>-->
+<!--            </button>-->
+          <button id="button-alignment" dropdownToggle type="button"
+                  class="btn dropdown-toggle" aria-controls="dropdown-alignment" routerLink="/PlannerAccoutEdit">
+            Account Settings
+            <span class="caret"></span>
+          </button>
+<!--            <ul id="dropdown-alignment" *dropdownMenu class="dropdown-menu dropdown-menu-right"-->
+<!--                role="menu" aria-labelledby="button-alignment">-->
+<!--              <li role="menuitem"><a class="dropdown-item " href="#" routerLink="/VendorProfileEdit">Profile Settings</a></li>-->
+<!--            </ul>-->
+        </div>
+<!--        <form >-->
+          <p class="text-left" id="change-pwd">Edit Your Profile</p>
+          <hr>
+          <form [formGroup]="plannerForm">
+
+              <mat-form-field appearance="fill" class="left-field">
+                <mat-label>Profile Name</mat-label>
+                <input matInput formControlName="name" required>
+<!--                <mat-error *ngIf="plannerForm.controls.name.invalid">{{getErrorMessage()}}</mat-error>-->
+              </mat-form-field>
+
+
+
+              <mat-form-field appearance="fill" class="right-field">
+                <mat-label>Quote</mat-label>
+                <input matInput formControlName="quote" required>
+<!--                <mat-error *ngIf="plannerForm.controls.quote.invalid">{{getErrorMessage()}}</mat-error>-->
+              </mat-form-field>
+
+
+
+              <mat-form-field appearance="fill"  class="full-field">
+                <mat-label>Description</mat-label>
+                <input matInput formControlName="description" required>
+<!--                <mat-error *ngIf="plannerForm.controls.description.invalid">{{getErrorMessage()}}</mat-error>-->
+              </mat-form-field>
+
+
+
+              <mat-form-field appearance="fill" class="left-field">
+                <mat-label>Address</mat-label>
+                <input matInput formControlName="address" required>
+<!--                <mat-error *ngIf="plannerForm.controls.address.invalid">{{getErrorMessage()}}</mat-error>-->
+              </mat-form-field>
+
+
+
+              <mat-form-field appearance="fill" class="right-field">
+                <mat-label>Telephone</mat-label>
+                <input matInput formControlName="telephone" required>
+<!--                <mat-error *ngIf="plannerForm.controls.telephone.invalid">{{getErrorMessage()}}</mat-error>-->
+              </mat-form-field>
+
+
+
+              <mat-form-field appearance="fill" class="mini-field">
+                <mat-label>Facebook Link</mat-label>
+                <input matInput formControlName="facebook" >
+<!--                <mat-error *ngIf="plannerForm.controls.facebook.invalid">{{getErrorMessage()}}</mat-error>-->
+              </mat-form-field>
+
+
+
+              <mat-form-field appearance="fill" class="mini-field">
+                <mat-label>Instagram Link</mat-label>
+                <input matInput formControlName="instagram" >
+<!--                <mat-error *ngIf="plannerForm.controls.instagram.invalid">{{getErrorMessage()}}</mat-error>-->
+              </mat-form-field>
+
+
+
+              <mat-form-field appearance="fill" class="mini-field">
+                <mat-label>LinkedIn Link</mat-label>
+                <input matInput formControlName="linkedin" >
+<!--                <mat-error *ngIf="plannerForm.controls.linkedin.invalid">{{getErrorMessage()}}</mat-error>-->
+              </mat-form-field>
+
+
+          <button type="button" class="btn" id="submit" (click)="openModal(template)" >SAVE</button>
+        </form>
+        <ng-template #template>
+            <div class="modal-header">
+              <h4 class="modal-title pull-left">Confirmation</h4>
+              <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Are you sure to continue ?
+<!--              <button type="submit" class="btn" id="submit1" routerLink="/plannerprofile" >Confirm</button>-->
+              <button type="submit" class="btn" id="submit1" (click)="savePlanner(plannerForm)">Confirm</button>
+            </div>
+        </ng-template>
+    </div>
+
+</div>
+
+
+
+

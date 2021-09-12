@@ -1,0 +1,25 @@
+<div class="row my-row">
+    <div class="col-sm" id="bg">
+        <div class="navi">
+            <app-navigation-bar></app-navigation-bar>
+        </div>
+        <div class="event-board" [ngStyle]="{'background-image': geturl()}">
+
+
+            <div class="serchbox">
+                <app-advanced-search></app-advanced-search>
+            </div>
+        </div>
+        <div class="reg-banner">
+            <app-reg-banner></app-reg-banner>
+        </div>
+        <div class="Intro">
+            <app-event-ad-viewer></app-event-ad-viewer>
+        </div>
+        <div class="Footer">
+            <app-sub-viewer></app-sub-viewer>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,25 @@
+.row{
+    margin: 0px;
+  }
+  .col-sm{
+    padding: 0px;
+  }
+.counter{
+    background-color: rgb(158, 158, 158);
+}
+.counter p{
+    font-size: 30px;
+    padding-top: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: rgb(42, 58, 4);
+}
+.counter countdown-timer{
+    background-color: rgb(158, 158, 158);
+    font-size: 80px;
+    font-weight: 900;
+    color: rgb(12, 19, 49);
+    width: 70%;
+    margin-left: 28%;
+    margin-bottom: 20px;
+}

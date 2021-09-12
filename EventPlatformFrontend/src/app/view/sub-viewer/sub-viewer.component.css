@@ -1,0 +1,32 @@
+.footer .d-flex .p-2{
+    background-color:#45A398;
+  }
+  .footer .d-flex .p-2 p{
+    text-align: left;
+    margin-left: 25%;
+    font-weight: bold;
+    color: #442a8b; 
+    margin-bottom: 8px;
+  }
+  .footer .d-flex .p-2 h4{
+    padding-bottom: 15px;
+    padding-top: 20px;
+    font-weight: bolder;
+  }
+  .footer .d-flex .p-2 #sec-link{
+    padding-top: 27%;
+  }
+  .footer .d-flex p-2 #foot-img{
+    padding-left: 55px;
+  }
+  .footer .bot-footer{
+    background-color: rgb(165, 81, 152);
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+  .footer .bot-footer p{
+    color: #f1f1f1;
+    font-family: "Montserrat";
+    font-size: 12px;
+  }
+  

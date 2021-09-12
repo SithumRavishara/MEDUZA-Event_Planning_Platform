@@ -1,0 +1,43 @@
+<div class="row">
+    <div class="col-sm">
+        <div class="heading">
+            <p id="head-1">Event : {{Name}}</p>
+            <p id="head-2">{{Heading}}</p>
+            <div class="btn-group" dropdown placement="bottom right">
+                <button id="button-alignment" dropdownToggle type="button"
+                        class="btn dropdown-toggle" aria-controls="dropdown-alignment" >
+                        <span class="caret"></span>
+                </button>
+                <ul id="dropdown-alignment" *dropdownMenu class="dropdown-menu dropdown-menu-right"
+                    role="menu" aria-labelledby="button-alignment">
+                  <li role="menuitem"><a class="dropdown-item " href="#" routerLink="/EventEditPage" >Event Profile Edit</a></li>
+<!--                  <li role="menuitem"><a class="dropdown-item " href="#" routerLink="/EventEditPage" >Add Members</a></li>-->
+                </ul>
+            </div>
+        </div>
+        <div class="counter">
+            <app-count-down></app-count-down>
+        </div>
+        <div class="peoples">
+            <p>Team Members</p>
+            <hr>
+            <!-- <div class="add-button">
+                <a><button class="button button1">Green</button></a>
+            </div> -->
+            <app-people-viewer></app-people-viewer>
+        </div>
+        <div class="pro-indicator">
+<!--            <p>Progress </p> <app-progress-bar></app-progress-bar>-->
+          <app-progress-bar></app-progress-bar>
+        </div>
+        <div class="activity-box">
+            <p>Scheduled Activities </p>
+            <hr>
+            <app-dynamic-box></app-dynamic-box>
+          <button class="button" id="Addbutton" routerLink="/EditActivity">Add New Activity</button>
+        </div>
+        <!-- <div class="chat-from">
+            <app-dynamic-box></app-dynamic-box>
+        </div> -->
+    </div>
+</div>

@@ -1,0 +1,136 @@
+.row{
+    margin: 0px;
+}
+.col-sm{
+    padding: 0px;
+}
+.Login-frm{
+    height: 603px;
+    background-image: url("./../../../assets/Images/log_cover1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.Login-frm  #para-1,#para-2,#para-3{
+    font-size: 90px;
+    font-weight: bolder;
+}
+.Login-frm  #para-1{
+    position: absolute;
+    top: 10%;
+    left: 30px;
+    color: ivory;
+}
+.Login-frm  #para-2{
+    position: absolute;
+    top: 30%;
+    left: 30px;
+    color: ivory;
+}
+.Login-frm  #para-3{
+    top: 50%;
+    position: absolute;
+    left: 30px;
+    color: ivory;
+}
+.Login-frm #card h2{
+    color: indigo;
+    margin-top: 40px;
+    font-weight: bolder;
+}
+.Login-frm #card h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(22, 21, 21);
+    font-weight: bolder;
+  font-family: "Montserrat Alternates SemiBold";
+}
+.Login-frm #card .btn-grp-2{
+    margin-left: 30%;
+    margin-top: 20px;
+}
+.Login-frm #card .btn-grp-2 button{
+    border-radius: 0px;
+    width: 30%;
+    transition-duration: 0.4s;
+    border: none;
+}
+.Login-frm #card .btn-grp-2 button:hover{
+  background-color: #4CAF50;
+  color: white;
+}
+.Login-frm #card .btn-grp-2 #button-1{
+    background-color: rgb(214, 113, 18);
+}
+.Login-frm #card .btn-grp-2 #button-2{
+    background-color: rgb(236, 22, 154);
+}
+.Login-frm #card{
+  position: absolute;
+  top: 70px;
+  right: 8%;
+  background-color: rgba(148, 158, 167, 0.664);
+  width: 40%;
+  height: 450px;
+}
+.Login-frm #card form mat-form-field{
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-top: 10px;
+  width: 80%;
+  height: 20px;
+  margin-bottom: 40px;
+}
+
+.Login-frm #card form mat-form-field input{
+  height: 20px;
+}
+
+.Login-frm #card form mat-form-field mat-label{
+  font-weight: bold;
+  color: #190b37;
+}
+/*.Login-frm #card form .form-group{*/
+/*    margin-bottom: 5px;*/
+/*    margin-top: 20px;*/
+/*}*/
+/*.Login-frm #card form label{*/
+/*    color: black;*/
+/*    font-weight: bold;*/
+/*    margin-bottom: 3px;*/
+/*}*/
+/*.Login-frm #card form input{*/
+/*    border-top: blanchedalmond;*/
+/*    border-left: blanchedalmond;*/
+/*    border-right:blanchedalmond ;*/
+/*    background-color: rgba(148, 158, 167, 0.664) ;*/
+/*}*/
+.Login-frm #card form button{
+    right: 35%;
+  width: 30%;
+    position: absolute;
+    background-color: indigo;
+    border-radius: 2px;
+    margin-top: 10px;
+    border:indigo ;
+}
+.Login-frm #card form button:hover{
+    background-color: rebeccapurple;
+}
+.Login-frm #card form .form-check{
+    margin-top:15px;
+    padding-left: 40px;
+}
+.Login-frm #card form .form-check #terms{
+    color: rgb(61, 13, 60);
+}
+.Login-frm #card form p{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 10%;
+    font-weight: bolder;
+    color: rgb(19, 20, 20);
+}
+.Login-frm #card form p a{
+    color: rgb(42, 42, 78);
+}

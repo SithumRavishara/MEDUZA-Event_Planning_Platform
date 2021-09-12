@@ -1,0 +1,31 @@
+.Login-frm #card h2{
+    margin-top: 20px;
+}
+.Login-frm #card .btn-group{
+    position: absolute;
+    right: 39px;
+    top: 100px;
+}
+.Login-frm #card form{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+.Login-frm #card form #change-pwd{
+    font-size: 20px;
+}
+.Login-frm #card form .form-check{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.Login-frm #card form button{
+    margin-left: 80%;
+    margin-bottom: 20px;
+    background-color: rgb(113, 26, 175);
+    color: silver;
+    font-weight: bolder;
+}
+.Login-frm #card form button:hover{
+    background-color: violet;
+    color: black;
+}

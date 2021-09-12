@@ -1,0 +1,164 @@
+.row{
+    margin: 0px;
+  }
+  .col-sm{
+    padding: 0px;
+  }
+.result-box{
+  height: 110px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 90%;
+    margin-left: 70px;
+}
+
+.result-box .inner-box{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    /* width: 80%; */
+    height: 500px;
+    overflow: auto;
+}
+/* .result-box .inner-box #content-1{
+    margin-bottom: 20px;
+    height: 220px;
+    border-radius: 0 50px 50px 50px;
+    background: linear-gradient(45deg, rgb(221, 15, 86),rgb(198, 192, 66));
+}
+.result-box .inner-box .p-2 img{
+    height: 200px;
+    width: 500px;
+}
+.result-box .inner-box #content-1 .p-3 #h-mini-topic,#s-mini-topic{
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+  }
+.result-box .inner-box #content-1 .p-3 #h-para{
+    font-size: 10pxpx;
+    font-weight: bolder;
+    color:#6E1B07;
+}
+.result-box .inner-box #content-1 .p-3 #h-para span{
+    margin-left: 20px;
+}
+.result-box .inner-box #content-1 .p-4 button{
+  margin-top: 150px;
+  border-radius: 8px;
+  background-color: #7e7604;
+  border: none;
+  color: white;
+  padding: 6px 8px;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+.result-box .inner-box #content-1 .p-4 button:hover{
+    opacity: 0.6
+}
+.result-box button{
+
+    background-color: brown;
+    font-size: 30px;
+}
+
+.result-box  #plus-btn{
+    /* position: absolute; */
+    /* -webkit-transition-duration: 0.4s;  */
+    /* transition-duration: 0.4s;
+    margin-left: 80%;
+    margin-top: 10px;
+    border-radius: 90px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  .result-box  #plus-btn span{
+      width: 20px;
+  }
+
+  .result-box button:hover {
+    background-color: #4CAF50; /* Green */
+    /* color: white;
+  }
+
+  .result-box .block{
+      height: 20px;
+  }   */
+  /* ///////////////////// */
+  .result-box .inner-box #detail-crd{
+    border-radius: 20px;
+    border: rgb(50, 109, 207);
+    border-style: solid;
+    background-color: rgb(21, 109, 193);
+}
+.result-box .inner-box #detail-crd .row{
+    margin-top: 20px;
+}
+.result-box .inner-box #detail-crd .row #heding pre{
+ border: none;
+ font-weight: bolder;
+ font-size: 20px;
+}
+.result-box .inner-box #detail-crd .row .btn{
+  color: #526e54;
+    padding: 0px;
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    /* margin-left: 10px; */
+    border-width: 0px;
+    border-radius: 20px;
+    background-color: mintcream;
+}
+.result-box .inner-box #detail-crd .row .btn pre{
+    height: 20px;
+    width: 20px;
+    padding: 0px;
+    border-width: 0px;
+    border-radius: 20px;
+    margin-left: 2.5px;
+}
+.result-box .inner-box #detail-crd .row .btn pre img{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+}
+.result-box .inner-box #detail-crd .row #editbtn{
+    margin-right: 10px;
+    border-radius: 25px;
+    height: 40px;
+    width: 40px;
+    padding: 0px;
+    border-width: 0px;
+    /* padding: 2px; */
+}
+.result-box .inner-box #detail-crd .row #deletebtn{
+  color: #08540d;
+    margin-right: 10px;
+    padding: 0px;
+    border-width: 0px;
+    height: 25px;
+    width: 25px;
+    border-radius: 20px;
+}
+.result-box .inner-box #detail-crd .row #deletebtn:hover{
+    background-color: rgb(203, 235, 25);
+}
+.result-box .inner-box #detail-crd .row #deletebtn img{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    margin-bottom: 3px;
+}
+.result-box .inner-box #detail-crd .well hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.result-box .inner-box #detail-crd .well #topic{
+    font-weight: bolder;
+}

@@ -1,0 +1,25 @@
+.my-row{
+    height: 850px;
+}
+#bg{
+    min-height: 615px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* background-image: url("./../../../assets/2.jpg"); */
+}
+
+.row .event-board{
+    margin-top: 4%;
+    background-size: cover;
+    height: 450px;
+    margin-left: 20%;
+    margin-right: 5%;
+    background-repeat: no-repeat;
+}
+.serchbox{
+position: absolute;
+left: 5%;
+top: 10%;
+}

@@ -1,0 +1,12 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/**
+ * Generated bundle index. Do not edit.
+ */
+export { CountDownModule } from './public_api';
+export { CountDownComponent as ɵa } from './lib/countdown.component';
+export { NumberTransformPipe as ɵb } from './lib/pipes/number-transform/number-transform.pipe';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY291bnRkb3duLmpzIiwic291cmNlUm9vdCI6Im5nOi8vY291bnRkb3duLyIsInNvdXJjZXMiOlsiY291bnRkb3duLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFJQSxnQ0FBYyxjQUFjLENBQUM7QUFFN0IsT0FBTyxFQUFDLGtCQUFrQixJQUFJLEVBQUUsRUFBQyxNQUFNLDJCQUEyQixDQUFDO0FBQ25FLE9BQU8sRUFBQyxtQkFBbUIsSUFBSSxFQUFFLEVBQUMsTUFBTSxvREFBb0QsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qKlxuICogR2VuZXJhdGVkIGJ1bmRsZSBpbmRleC4gRG8gbm90IGVkaXQuXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9wdWJsaWNfYXBpJztcblxuZXhwb3J0IHtDb3VudERvd25Db21wb25lbnQgYXMgybVhfSBmcm9tICcuL2xpYi9jb3VudGRvd24uY29tcG9uZW50JztcbmV4cG9ydCB7TnVtYmVyVHJhbnNmb3JtUGlwZSBhcyDJtWJ9IGZyb20gJy4vbGliL3BpcGVzL251bWJlci10cmFuc2Zvcm0vbnVtYmVyLXRyYW5zZm9ybS5waXBlJzsiXX0=

@@ -1,0 +1,67 @@
+.inner-box #detail-crd{
+    border-radius: 0px;
+    border: rgb(140, 135, 141);
+  background-color: #838285;
+    border-style: solid;
+}
+.inner-box .p-2 .row #heding pre{
+ border: none;
+ font-weight: bolder;
+ font-size: 20px;
+}
+.inner-box .p-2 .row .btn{
+    padding: 0px;
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    /* margin-left: 10px; */
+    border-width: 0px;
+    border-radius: 20px;
+    background-color: mintcream;
+}
+.inner-box .p-2 .row .btn pre{
+    height: 20px;
+    width: 20px;
+    padding: 0px;
+    border-width: 0px;
+    border-radius: 20px;
+    margin-left: 2.5px;
+}
+.inner-box .p-2 .row .btn pre img{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+}
+.inner-box .p-2 .row #editbtn{
+    margin-right: 10px;
+    border-radius: 25px;
+    height: 40px;
+    width: 40px;
+    padding: 0px;
+    border-width: 0px;
+    /* padding: 2px; */
+}
+.inner-box .p-2 .row #deletebtn{
+    margin-right: 10px;
+    padding: 0px;
+    border-width: 0px;
+    height: 25px;
+    width: 25px;
+    border-radius: 20px;
+}
+.inner-box .p-2 .row #deletebtn:hover{
+    background-color: rgb(203, 235, 25);
+}
+.inner-box .p-2 .row #deletebtn img{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    margin-bottom: 3px;
+}
+.inner-box #detail-crd .well hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.inner-box #detail-crd .well #topic{
+    font-weight: bolder;
+}

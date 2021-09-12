@@ -1,0 +1,88 @@
+<div class="result-box">
+            <!-- <div class="d-flex flex-row">
+                <div class="p-2 flex-grow-1">
+                    <h3 class="text-center">{{Topic}}</h3>
+                    <p class="text-center">{{description}}</p>
+                </div>
+                <div class="p-3">
+                    <button type="button" class="btn" (click)="onSort()" id="plus-btn"><span>+</span></button>
+                </div>
+            </div> -->
+            <div class="inner-box">
+              <div class="body" id="detail-crd" *ngFor="let Serverid of servers">
+                <div class="row">
+                    <div class="col-md-9" id="heding">
+                        <pre class="card card-block card-header">{{message}}</pre>
+                    </div>
+                    <div class="col-md-3">
+                      <button type="button" class="btn " (click)="isCollapsed = !isCollapsed"
+                              [attr.aria-expanded]="!isCollapsed" aria-controls="collapseEvent">
+                              <pre class="card card-block card-header"><img src="{{icon}}"></pre>
+                      </button>
+                      <button class="button" id="deletebtn" (click)="onRemove()"><img src="{{icon2}}"></button>
+                      <button class="button" id="deletebtn" routerLink="/EditActivity"><img src="{{icon3}}"></button>
+                    </div>
+                  </div>
+                  <hr>
+                  <div id="collapseEvent"
+                       [isAnimated]="true"
+                       [collapse]="isCollapsed"
+                       (collapses)="collapses()"
+                       (expands)="expands()"
+                       (collapsed)="collapsed()"
+                       (expanded)="expanded()">
+
+                     <div class="well well-lg card card-block card-header">
+                         <p id="topic">Description :</p>
+                         <hr>
+                         <p id="para-1"> Marketing is a important thing in the event. please work on this matter urgently.   </p>
+                         <hr>
+                         <p id="topic">Highilited Vendors :</p>
+                         <hr>
+                         <div class="d-flex" id="activity">
+                             <div class="p-2 flex-fill">
+                                <p id="price">{{vendor1}}</p>
+                             </div>
+                             <div class="p-2 flex-fill">
+                                <p id="price">{{vendor2}}</p>
+                             </div>
+                             <div class="p-2 flex-fill">
+                                <p id="price">{{vendor3}}</p>
+                             </div>
+                             <div class="p-2 flex-fill">
+                                <p id="price">{{vendor4}}</p>
+                             </div>
+                         </div>
+                         <div class="d-flex" id="activity">
+                            <div class="p-2 flex-fill">
+                             <p id="topic">Estimate Budget :</p>
+                            </div>
+                            <div class="p-2 flex-fill">
+                             <p id="topic"> - </p>
+                            </div>
+                         </div>
+                         <div class="d-flex" id="activity">
+                            <div class="p-2 flex-fill">
+                             <p id="topic">Vendor Checking Budget :</p>
+                            </div>
+                            <div class="p-2 flex-fill">
+                             <p id="topic"> - </p>
+                            </div>
+                         </div>
+                     </div>
+                  </div>
+                    <!-- <p class="text-center" id="h-mini-topic">{{miniTopic}}</p>
+                    <div class="p-2 mr-auto "><img src="assets/Images/confirm.svg" alt="sample image"></div>
+                    <div class="p-3 flex-grow-1">
+                      <P class="text-left" id="h-para">Venue :<span>{{description}}</span></P>
+                      <P class="text-left" id="h-para">Date :<span>{{description}}</span></P>
+                      <P class="text-left" id="h-para">Tickets :<span> {{description}}</span></P>
+                      <P class="text-left" id="h-para">Registration Status :<span>{{description}}</span></P>
+                    </div>
+                    <div class="p-4">
+                        <button class="button">></button>
+                    </div> -->
+                </div>
+            </div>
+            <div class="block"></div>
+</div>

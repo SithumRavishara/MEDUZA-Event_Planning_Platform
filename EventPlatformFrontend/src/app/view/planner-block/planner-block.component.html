@@ -1,0 +1,58 @@
+<div class="row">
+    <div class="col-sm">
+        <div class="bio">
+            <app-planner-bio-card></app-planner-bio-card>
+        </div>
+        <div class="Event-block">
+            <p class="text-center topic">Recent Events </p>
+            <div class="inner-box" >
+                    <div class="p-2 " *ngFor="let Serverid of servers">
+                          <div class="row">
+                            <div class="col-md-6">
+                                <pre class="card card-block card-header text-center" id="act-topic">{{Serverid.e_name}}</pre>
+                            </div>
+                            <div class="col-md-6">
+                              <button type="button" class="btn " id="firstb" (click)="isCollapsed = !isCollapsed"
+                                      [attr.aria-expanded]="!isCollapsed" aria-controls="collapseEvent">
+                                      <pre class="card card-block card-header"><img src="{{icon}}"></pre>
+                              </button>
+                              <button class="button" id="deletebtn" (click)="onRemove(Serverid)"><img src="{{icon2}}"></button>
+                              <button type="text"  id="visit" (click)="visitEvent(Serverid)">Visit</button>
+                            </div>
+                          </div>
+                          <hr>
+                          <div id="collapseEvent"
+                               [isAnimated]="true"
+                               [collapse]="isCollapsed"
+                               (collapses)="collapses()"
+                               (expands)="expands()"
+                               (collapsed)="collapsed()"
+                               (expanded)="expanded()">
+
+                             <div class="well well-lg card card-block card-header">
+                                 <p id="mini-topic">Progress</p>
+                                 <app-progress-bar></app-progress-bar>
+                                 <hr>
+                                 <p id="mini-topic">Remaining Tasks</p>
+                                 <div class="d-flex" id="activity">
+                                     <div class="p-2 flex-fill">
+                                        <pre class="card card-block card-header">{{message}}</pre>
+                                     </div>
+                                     <!-- <div class="p-2 flex-fill">
+                                        <button class="button" id="deletebtn" (click)="onRemove()">Go</button>
+                                     </div> -->
+                                 </div>
+                                <hr>
+                                <p id="mini-topic">Budget</p>
+                                <div class="d-flex justify-content-start">
+                                    <div class="p-2 ">Total Estimate :</div>
+                                    <div class="p-2 ">Rs. 0000.00 </div>
+                                </div>
+                             </div>
+                          </div>
+                    </div>
+            </div>
+            <button class="button" id="Addbutton" routerLink="/EventEditPage" (click)="add()">Add New Event</button>
+        </div>
+    </div>
+</div>

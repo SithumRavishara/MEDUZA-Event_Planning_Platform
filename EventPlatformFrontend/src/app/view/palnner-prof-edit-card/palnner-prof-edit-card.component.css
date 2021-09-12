@@ -1,0 +1,88 @@
+.Login-frm #card h2{
+    margin-top: 20px;
+}
+.Login-frm #card .btn-group{
+    position: absolute;
+    right: 39px;
+    top: 100px;
+}
+.Login-frm #card form{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+.Login-frm #card {
+  padding-bottom: 5%;
+}
+.Login-frm #card #change-pwd{
+    font-size: 20px;
+    margin-left: 5%;
+  font-family: Montserrat;
+}
+.Login-frm #card form .form-check{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.Login-frm #card form #submit{
+    width: 20%;
+    margin-left: 70%;
+    margin-top: 20px;
+    background-color: rgb(113, 26, 175);
+    color: silver;
+    font-weight: bolder;
+}
+.Login-frm #card form button:hover{
+    background-color: violet;
+    color: black;
+}
+.Login-frm #card form .d-flex .p-2 button{
+    margin: 0px;
+    background-color: rgb(226, 183, 230);
+    border: rgb(226, 183, 230);
+    color: rgb(113, 26, 175);
+}
+.Login-frm #card form .d-flex .p-2 button:hover{
+    color: rgb(66, 5, 110);
+}
+.Login-frm mat-form-field{
+  /*margin-left: 50px;*/
+  margin-right: 20px;
+  margin-top: 20px;
+  /*width: 80%;*/
+  height: 20px;
+  margin-bottom: 40px;
+}
+
+.Login-frm .left-field {
+  margin-left: 40px;
+  width:40.5%;
+}
+
+.Login-frm .right-field {
+  margin-left: 40px;
+  width:40.5%;
+}
+
+.Login-frm .full-field {
+  margin-left: 40px;
+  width:86.5%;
+}
+
+.Login-frm .mini-field {
+  margin-left: 40px;
+  width:25%;
+}
+
+.Login-frm form mat-form-field input{
+  height: 20px;
+}
+
+.Login-frm #card form mat-form-field mat-label{
+  /*font-weight: bold;*/
+  color: #190b37;
+}
+
+.Login-frm #card #submit1{
+  background-color: rgb(126, 104, 143);
+}
+

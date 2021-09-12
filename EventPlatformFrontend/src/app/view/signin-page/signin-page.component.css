@@ -1,0 +1,72 @@
+.row{
+    margin: 0px;
+}
+.col-sm{
+    padding: 0px;
+}
+.Login-frm {
+    height: 603px;
+    background-image: url("./../../../assets/Images/log_cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.Login-frm p{
+    font-size: 90px;
+    font-weight: bolder;
+}
+.Login-frm  #para-1{
+    position: absolute;
+    top: 10%;
+    left: 30px;
+    color: ivory;
+}
+.Login-frm  #para-2{
+    position: absolute;
+    top: 30%;
+    left: 30px;
+    color: ivory;
+}
+.Login-frm  #para-3{
+    top: 50%;
+    position: absolute;
+    left: 30px;
+    color: ivory;
+}
+.Login-frm #card .btn-grp-2{
+    margin-left: 30%;
+    margin-top: 20px;
+}
+.Login-frm #card .btn-grp-2 button{
+    border-radius: 0px;
+    width: 30%;
+    transition-duration: 0.4s;
+    border: none;
+}
+.Login-frm #card .btn-grp-2 button:hover{
+  background-color: #4CAF50;
+  color: white;
+}
+.Login-frm #card .btn-grp-2 #button-1{
+    background-color: rgb(214, 113, 18);
+}
+.Login-frm #card .btn-grp-2 #button-2{
+    background-color: rgb(236, 22, 154);
+}
+.Login-frm #card {
+  position: absolute;
+  right: 0px;
+  background-color: rgba(94, 159, 233, 0.548);
+  width: 60%;
+  height: 633px;
+}
+.Login-frm #card h2{
+    margin-top: 50px;
+}
+.Login-frm #card form{
+    padding-top: 20px;
+}
+.Login-frm #card form .form-check{
+    margin-top: 40px;
+padding-left: 50px;
+}

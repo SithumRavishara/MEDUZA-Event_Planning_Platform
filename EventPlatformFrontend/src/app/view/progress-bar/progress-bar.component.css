@@ -1,0 +1,11 @@
+.row{
+    margin: 0px;
+  }
+  .col-sm{
+    padding: 0px;
+  }
+.progress-indicator progressbar{
+    margin-left: 15%;
+    width: 70%;
+    background-color: rgb(81, 153, 226);
+}

@@ -1,0 +1,204 @@
+<div class="Login-frm">
+    <div class="container" id="card">
+        <!-- <div class="btn-grp-2">
+            <button type="button" class="btn" id="button-1" routerLink="/login">LogIn</button>
+            <button type="button" class="btn" id="button-2" routerLink="/signin">SignUp</button>
+        </div> -->
+        <h2 class="text-center">Profile Settings</h2>
+        <div class="btn-group" dropdown placement="bottom right">
+            <button id="button-alignment" dropdownToggle type="button"
+                    class="btn dropdown-toggle" aria-controls="dropdown-alignment" routerLink="/VendorAccountEdit">
+                    Account Settings
+                    <span class="caret"></span>
+            </button>
+            <ul id="dropdown-alignment" *dropdownMenu class="dropdown-menu dropdown-menu-right"
+                role="menu" aria-labelledby="button-alignment">
+              <li role="menuitem"><a class="dropdown-item " href="#" routerLink="/VendorProfileEdit">Profile Settings</a></li>
+            </ul>
+        </div>
+        <form >
+          <p class="text-left" id="change-pwd">Edit Profile</p>
+          <hr>
+          <div class="form-group">
+            <label for="Pheading">Profile heading :</label>
+            <input type="text" class="form-control" id="heading" placeholder="Enter heading" name="heading" >
+          </div>
+          <div class="form-group">
+            <label for="quote">Quote :</label>
+            <input type="text" class="form-control" id="quote" placeholder="Enter your quote" name="quote" >
+          </div>
+          <!-- <div class="form-group">
+            <label for="sel1">User Type:</label>
+            <select class="form-control" id="sel1">
+              <option>Event Palnner</option>
+              <option>Vendor</option>
+            </select>
+          </div> -->
+          <div class="form-group">
+            <label for="comment">Description :</label>
+            <textarea class="form-control" rows="5" id="description"></textarea>
+          </div>
+          <!-- <div class="form-group">
+            <label for="sel1 ">Package :</label>
+            <select class="form-control" id="sel1">
+              <option>Package 1</option>
+              <option>Package 2</option>
+              <option>Package 3</option>
+              <option>Package 4</option>
+            </select>
+          </div> -->
+          <diV class="d-flex ">
+              <div class="p-2 flex-fill">
+                <button type="button" class="btn btn-primary" (click)="isCollapsed = !isCollapsed"
+                    [attr.aria-expanded]="!isCollapsed" aria-controls="collapseBasic">Package 1
+                </button>
+                <hr>
+                <div id="collapseBasic" [collapse]="isCollapsed" [isAnimated]="true">
+                    <div class="well well-lg card card-block card-header">
+                        <div class="form-group">
+                            <label for="pac-topic-1">Topic :</label>
+                            <input type="text" class="form-control" id="topic-1" placeholder="Enter your package topic" name="topic" >
+                        </div>
+                        <div class="form-group">
+                            <label for="pac-desc-1">Small Description :</label>
+                            <input type="text" class="form-control" id="desc-1" placeholder="Enter your small description" name="desc" >
+                        </div>
+                        <div class="form-group">
+                            <label for="pac-price-1">Price :</label>
+                            <input type="text" class="form-control" id="price-1" placeholder="Enter your package prise" name="price" >
+                        </div>
+                        <div class="form-group">
+                            <label for="cond-1">Conditions :</label>
+                            <input type="text" class="form-control" id="condition-1" placeholder="Enter your conditions" name="condition" >
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="p-2 flex-fill">
+                <button type="button" class="btn btn-primary" (click)="istwoCollapsed = !istwoCollapsed"
+                    [attr.aria-expanded]="!istwoCollapsed" aria-controls="collapseBasic">Package 2
+                </button>
+                <hr>
+                <div id="collapseBasic" [collapse]="istwoCollapsed" [isAnimated]="true">
+                    <div class="well well-lg card card-block card-header">
+                        <div class="form-group">
+                            <label for="pac-topic-2">Topic :</label>
+                            <input type="text" class="form-control" id="topic-2" placeholder="Enter your package topic" name="topic" >
+                        </div>
+                        <div class="form-group">
+                            <label for="pac-desc-2">Small Description :</label>
+                            <input type="text" class="form-control" id="desc-2" placeholder="Enter your small description" name="desc" >
+                        </div>
+                        <div class="form-group">
+                            <label for="pac-price-2">Price :</label>
+                            <input type="text" class="form-control" id="price-2" placeholder="Enter your package prise" name="price" >
+                        </div>
+                        <div class="form-group">
+                            <label for="cond-2">Conditions :</label>
+                            <input type="text" class="form-control" id="condition-2" placeholder="Enter your conditions" name="condition" >
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="p-2 flex-fill">
+                <button type="button" class="btn btn-primary" (click)="isthirdCollapsed = !isthirdCollapsed"
+                    [attr.aria-expanded]="!isthirdCollapsed" aria-controls="collapseBasic">Package 3
+                </button>
+                <hr>
+                <div id="collapseBasic" [collapse]="isthirdCollapsed" [isAnimated]="true">
+                    <div class="well well-lg card card-block card-header">
+                        <div class="form-group">
+                            <label for="pac-topic-3">Topic :</label>
+                            <input type="text" class="form-control" id="topic-3" placeholder="Enter your package topic" name="topic" >
+                        </div>
+                        <div class="form-group">
+                            <label for="pac-desc-3">Small Description :</label>
+                            <input type="text" class="form-control" id="desc-3" placeholder="Enter your small description" name="desc" >
+                        </div>
+                        <div class="form-group">
+                            <label for="pac-price-3">Price :</label>
+                            <input type="text" class="form-control" id="price-3" placeholder="Enter your package prise" name="price" >
+                        </div>
+                        <div class="form-group">
+                            <label for="cond-3">Conditions :</label>
+                            <input type="text" class="form-control" id="condition-3" placeholder="Enter your conditions" name="condition" >
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="p-2 flex-fill">
+                <button type="button" class="btn btn-primary" (click)="islastCollapsed = !islastCollapsed"
+                    [attr.aria-expanded]="!islastCollapsed" aria-controls="collapseBasic">Package 4
+                </button>
+                <hr>
+                <div id="collapseBasic" [collapse]="islastCollapsed" [isAnimated]="true">
+                    <div class="well well-lg card card-block card-header">
+                        <div class="form-group">
+                            <label for="pac-topic-4">Topic :</label>
+                            <input type="text" class="form-control" id="topic-4" placeholder="Enter your package topic" name="topic" >
+                        </div>
+                        <div class="form-group">
+                            <label for="pac-desc-4">Small Description :</label>
+                            <input type="text" class="form-control" id="desc-4" placeholder="Enter your small description" name="desc" >
+                        </div>
+                        <div class="form-group">
+                            <label for="pac-price-4">Price :</label>
+                            <input type="text" class="form-control" id="price-4" placeholder="Enter your package prise" name="price" >
+                        </div>
+                        <div class="form-group">
+                            <label for="cond-4">Conditions :</label>
+                            <input type="text" class="form-control" id="condition-4" placeholder="Enter your conditions" name="condition" >
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </diV>
+          <hr>
+          <div class="form-group">
+            <label for="pwd">Address :</label>
+            <input type="text" class="form-control" id="address" placeholder="Enter Address" name="address" >
+          </div>
+          <div class="form-group">
+            <label for="pwd">Telephone :</label>
+            <input type="text" class="form-control" id="phone" placeholder="Enter Telephone" name="phone" >
+          </div>
+          <div class="d-flex">
+              <div class="p-1 flex-fill">
+                <div class="form-group">
+                    <label for="fblink">Facebook Link :</label>
+                    <input type="text" class="form-control" id="fblink" placeholder="Enter link here" name="fb" >
+                </div>
+              </div>
+              <div class="p-1 flex-fill">
+                <div class="form-group">
+                    <label for="instlink">Instagram Link :</label>
+                    <input type="text" class="form-control" id="instlink" placeholder="Enter link here" name="insta" >
+                </div>
+              </div>
+              <div class="p-1 flex-fill">
+                <div class="form-group">
+                    <label for="lnkdin">LinkedIn Link :</label>
+                    <input type="text" class="form-control" id="lnkdin" placeholder="Enter link here" name="linked" >
+                </div>
+              </div>
+          </div>
+          <button type="button" class="btn" id="submit" (click)="openModal(template)" >Confirm</button>
+        </form>
+        <ng-template #template>
+            <div class="modal-header">
+              <h4 class="modal-title pull-left">Modal</h4>
+              <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Are you sure to continue ?
+              <button type="submit" class="btn" id="submit" routerLink="/vendorprofile" >Confirm</button>
+            </div>
+        </ng-template>
+    </div>
+
+</div>
+
+
+

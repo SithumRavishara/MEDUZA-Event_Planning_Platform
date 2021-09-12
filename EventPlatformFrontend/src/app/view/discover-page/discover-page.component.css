@@ -1,0 +1,82 @@
+.head-tab{
+    margin-top: 70px;
+    margin-left: 70px;
+}
+.head-tab .btn-group .button {
+ background-color: rgb(52, 55, 226); 
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ cursor: pointer; 
+}
+
+.head-tab #btn-grp-2{
+    margin-left: 34%;
+}
+  
+.head-tab .btn-group .button:hover {
+ background-color: #ca24da;
+}
+
+.result-box{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    width: 90%;
+    margin-left: 70px;
+    background-color: teal;
+}
+
+.result-box .inner-box{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: teal;
+    /* width: 80%; */
+    height: 500px;
+    overflow: auto;
+}
+.result-box .inner-box #content-1{
+    margin-bottom: 20px;
+    height: 220px;
+    border-radius: 0 50px 50px 50px;
+    background: linear-gradient(45deg, rgb(221, 15, 86),rgb(198, 192, 66));
+}
+.result-box .inner-box .p-2 img{
+    height: 200px;
+    width: 500px;
+}
+.result-box .inner-box #content-1 .p-3 #h-mini-topic,#s-mini-topic{
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+  }
+.result-box .inner-box #content-1 .p-3 #h-para{
+    font-size: 10pxpx;
+    font-weight: bolder;
+    color:#6E1B07;
+}
+.result-box .inner-box #content-1 .p-3 #h-para span{
+    margin-left: 20px;
+}
+.result-box .inner-box #content-1 .p-4 button{
+  margin-top: 150px;
+  border-radius: 8px;
+  background-color: #7e7604;
+  border: none;
+  color: white;
+  padding: 6px 8px;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+.result-box .inner-box #content-1 .p-4 button:hover{
+    opacity: 0.6
+}

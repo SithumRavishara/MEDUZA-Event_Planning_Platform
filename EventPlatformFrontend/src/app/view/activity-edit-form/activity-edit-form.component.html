@@ -1,0 +1,104 @@
+<div class="Login-frm">
+    <div class="container" id="card">
+        <!-- <div class="btn-grp-2">
+            <button type="button" class="btn" id="button-1" routerLink="/login">LogIn</button>
+            <button type="button" class="btn" id="button-2" routerLink="/signin">SignUp</button>
+        </div> -->
+        <h2 class="text-center">Activity Editor</h2>
+        <div class="btn-group" dropdown placement="bottom right">
+            <button id="button-alignment" dropdownToggle type="button"
+                    class="btn dropdown-toggle" aria-controls="dropdown-alignment" routerLink="/evnt-planner-view">
+                    Event
+                    <span class="caret"></span>
+            </button>
+<!--            <ul id="dropdown-alignment" *dropdownMenu class="dropdown-menu dropdown-menu-right"-->
+<!--                role="menu" aria-labelledby="button-alignment">-->
+<!--              <li role="menuitem"><a class="dropdown-item " href="#" >Profile Settings</a></li>-->
+<!--            </ul>-->
+        </div>
+        <form >
+          <p class="text-left" id="change-pwd">Activity Form</p>
+          <hr>
+          <div class="form-group">
+            <label for="acname">Activity Name:</label>
+            <input type="text" class="form-control" id="uname" placeholder="Enter Activity Name" name="acname" >
+          </div>
+          <div class="form-group">
+            <label for="acdescription">Acitivity Description:</label>
+            <input type="text" class="form-control" id="uname" placeholder="Enter Activity Description" name="acdesname" >
+          </div>
+          <!-- <label for="edescription">Date of the event:</label>
+          <div class="row" id="date">
+            <div class="col-xs-12 col-12 col-md-4 form-group">
+              <input
+                placeholder="Datepicker"
+                class="form-control"
+                #dp="bsDatepicker"
+                bsDatepicker>
+            </div>
+            <div class="col-xs-12 col-12 col-md-3 form-group">
+              <button class="btn btn-success" (click)="dp.toggle()" [attr.aria-expanded]="dp.isOpen" type="button">Date Picker</button>
+            </div>
+          </div> -->
+          <!-- <div class="form-group">
+            <label for="sel1">User Type:</label>
+            <select class="form-control" id="sel1">
+              <option>Event Palnner</option>
+              <option>Vendor</option>
+            </select>
+          </div> -->
+          <div class="form-group">
+            <label for="sel1 ">Activity Type:</label>
+            <select class="form-control" id="sel1">
+              <option>Foods and Bevarages Partners</option>
+              <option>Venue partners</option>
+              <option>Logistics partners</option>
+              <option>Knowledge Source partners</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="estbud">Estimate Budget:</label>
+            <input type="text" class="form-control" id="uname" placeholder="Enter estimate budget" name="estbud" >
+          </div>
+          <div class="form-group">
+            <label for="sel1 ">Priority Vendor:</label>
+            <select class="form-control" id="sel1">
+              <option>Chamathkara flora</option>
+              <option>NB fashion design</option>
+              <option>Avendra Garden</option>
+              <option>Wills design</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="prioritybud">Vendor priority Budget:</label>
+            <input type="text" class="form-control" id="uname" placeholder="Enter priority budget" name="priobud" >
+          </div>
+          <hr>
+          <div class="row" id="ppadd">
+              <div class="col-xs-12 col-12 col-md-4 form-group">
+                <p class="text-left" id="change-pwd">Select Vendors :</p>
+              </div>
+              <div class="col-xs-12 col-12 col-md-3 form-group">
+                <button type="submit" class="btn btn-success"  routerLink="/discover">Select</button>
+              </div>
+        </div>
+          <hr>
+          <!-- <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+          </div>
+          <div class="form-group">
+            <label for="pwd">Re Enter Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+          </div>
+          <div class="form-group form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember" required> I agree on <a href="#" id="terms">Terms and Conditions.</a>
+            </label>
+          </div> -->
+          <button type="submit" class="btn " id="cnfrm"  routerLink="/evnt-planner-view">Confirm</button>
+        </form>
+    </div>
+</div>
+
+

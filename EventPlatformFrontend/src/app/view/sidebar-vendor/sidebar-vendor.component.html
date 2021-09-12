@@ -1,0 +1,69 @@
+<div class="content-wrapper container-fluid d-flex">
+    <div class="sidebar-container" [ngClass]="{'sidebar-closed': !toggle}">
+        <div class="topper">
+            <div class="logo d-flex">
+                <div class="p-2">
+                    <img src="./../../../assets/Images/logo.png" alt="Girl-work">
+                </div>
+                <div class="p-2 flex-grow-1">
+                    <p>Meduza</p>
+                </div>
+            </div>
+            <div class="Prophoto">
+                <img src="./../../../assets/Images/lassana.png" alt="Girl-work">
+            </div>
+            <div class="bio">
+                <p>Lassana Flora (Pvt)Ltd</p>
+            </div>
+            <div class="heading">
+                <p class="text-center">Monarch of the Miracle</p>
+            </div>
+            <div class="btn1">
+                <button class="button button1" routerLink="/vendorprofile">View profile</button>
+            </div>
+            <div class="btn1">
+                <button  type="button" class="button button1" (click)="isCollapsed = !isCollapsed"
+                [attr.aria-expanded]="!isCollapsed" aria-controls="collapseBasic" [disabled]="true">Events</button>
+                <div id="collapseBasic" [collapse]="isCollapsed" [isAnimated]="true">
+                    <div class="well well-lg card card-block card-header">
+                        <button class="button button1">Event 1</button>
+                        <button class="button button1">Event 2</button>
+                    </div>
+                </div>
+            </div>
+            <div class="btn1">
+                <a href="https://sithumravishara.github.io/eventpublish/"><button class="button button1">Discover</button></a>
+            </div>
+            <div class="btn1">
+                <button class="button button1">Account</button>
+            </div>
+        </div>
+    </div>
+    <div class="main-container">
+        <button (click)="onClick()" class="side-btn">
+            <img src="./../../../assets/Images/menu-icon.png" alt="icon">
+        </button>
+        <div class="main-top">
+            <div class="btn-group" dropdown placement="bottom right">
+                <button id="button-alignment" dropdownToggle type="button"
+                        class="btn dropdown-toggle" aria-controls="dropdown-alignment">
+                        <img src="./../../../assets/Images/lassana.png" alt="Girl-work">
+                        <span class="caret"></span>
+                </button>
+                <ul id="dropdown-alignment" *dropdownMenu class="dropdown-menu dropdown-menu-right"
+                    role="menu" aria-labelledby="button-alignment">
+                  <li role="menuitem"><a class="dropdown-item " routerLink="/vendorprofile">My Profile</a></li>
+                  <li role="menuitem"><a class="dropdown-item " routerLink="/VendorAccountEdit">Settings</a></li>
+                  <li class="divider dropdown-divider"></li>
+                  <li role="menuitem"><a class="dropdown-item " routerLink="/login">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="center-content">
+            <app-vendor-block></app-vendor-block>
+        </div>
+    </div>
+
+
+</div>

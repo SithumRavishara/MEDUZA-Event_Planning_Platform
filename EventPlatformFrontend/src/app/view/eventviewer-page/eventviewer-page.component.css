@@ -1,0 +1,94 @@
+.row{
+  margin: 0px;
+}
+.col-sm{
+  padding: 0px;
+}
+.heading{
+  background-color: rgb(41, 48, 59);
+  padding: 10px 10px 10px 10px;
+  color: seashell;
+  margin-left: 20%;
+  margin-top: 30px;
+}
+.heading  .btn-group{
+  position: absolute;
+  right: 39px;
+  top: 50px;
+}
+.heading  .btn-group button{
+  color: antiquewhite;
+}
+.counter{
+  margin-top: 20px;
+}
+ .heading #head-1{
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 10%;
+}
+ .heading #head-2{
+  font-size: 20px;
+  margin-left: 10%;
+  font-weight: bold;
+  color: burlywood;
+}
+  .peoples{
+      margin-top: 60px;
+      margin-bottom: 60px;
+      position: relative;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+  .peoples p{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .peoples .add-button{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding-left: 30px;
+  }
+  .pro-indicator{
+    margin-top: 60px;
+      margin-bottom: 60px;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+  .pro-indicator app-progress-bar{
+    padding-left: 20px;
+  }
+  .pro-indicator p{
+    position: absolute;
+    padding-top: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5%;
+  }
+  .activity-box{
+    margin-top: 60px;
+      margin-bottom: 285px;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+  .activity-box p{
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+.activity-box #Addbutton{
+  margin-left: 25%;
+  margin-top: 20px;
+  width: 50%;
+  background-color: rgb(57, 93, 109);
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(228, 215, 228);
+}
+.activity-box #Addbutton:hover{
+  background-color: rgb(39, 64, 75);
+}
+
+

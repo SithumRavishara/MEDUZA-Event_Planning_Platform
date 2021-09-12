@@ -1,0 +1,55 @@
+.Login-frm #card h2{
+    margin-top: 20px;
+}
+.Login-frm #card .btn-group{
+    position: absolute;
+    right: 39px;
+    top: 100px;
+}
+.Login-frm #card form{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+.Login-frm #card form .row .form-group input{
+}
+.Login-frm #card form .row .form-group button{
+    margin-left: 10px;
+}
+.Login-frm #card form #change-pwd{
+    font-size: 20px;
+}
+.Login-frm #card form .form-check{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.Login-frm #card form #date .form-group button{
+
+}
+.Login-frm #card form p{
+    font-weight: bold;
+}
+.Login-frm #card form .form-group {
+   padding-right:  0px;
+}
+.Login-frm #card form #ppadd p{
+    font-weight: 500;
+}
+.Login-frm #card form #ppadd button{
+    margin-left: 10px;
+    width: 110px;
+    padding-left: 0px;
+    font-weight: bolder;
+    padding-left: 12px;
+}
+.Login-frm #card form #cnfrm{
+    margin-left: 80%;
+    margin-bottom: 20px;
+    background-color: rgb(113, 26, 175);
+    color: rgb(230, 220, 220);
+    font-weight: bolder;
+}
+.Login-frm #card form #cnfrm:hover{
+    background-color: rgb(138, 56, 138);
+    /* color: black; */
+}
